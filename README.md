@@ -53,7 +53,7 @@ digicorp-ecommerce/
 ├── .gitignore
 ├── README.md
 
-5. Instalación y Configuración
+## 5. Instalación y Configuración
 
 5.1 Backend
 
