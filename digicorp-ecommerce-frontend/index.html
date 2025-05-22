@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="stylesheet" href="style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mini E-commerce DIGICORP</title>
+</head>
+<body>
+  <h1>Mini E-commerce DIGICORP</h1>
+
+  <div id="login-section">
+    <h2>Login</h2>
+    <label for="email">Correo electrónico</label>
+    <input type="email" id="email" placeholder="Correo electrónico" />
+    <label for="password">Contraseña</label>
+    <input type="password" id="password" placeholder="Contraseña" />
+    <button id="btn-login">Iniciar sesión</button>
+    <p id="login-status"></p>
+  </div>
+
+  <div id="products-section" style="display:none;">
+    <h2>Productos</h2>
+    <ul id="products-list"></ul>
+    <button id="btn-logout" style="display:none;">Cerrar sesión</button>
+  </div>
+
+  <section id="cart-section" style="display:none;">
+    <h2>Carrito de compras</h2>
+    <ul id="cart-list"></ul>
+    <button id="btn-clear-cart" style="display: none;">Vaciar Carrito</button>
+    <button id="btn-buy" style="display: none;">Comprar</button>
+  </section>
+
+  <script type="module" src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,88 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  max-width: 800px;
+  padding: 0 15px;
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+h1, h2 {
+  color: #2c3e50;
+}
+
+#login-section, #products-section, #cart-section {
+  background: white;
+  border-radius: 8px;
+  padding: 15px 20px;
+  margin-bottom: 25px;
+  box-shadow: 0 2px 5px rgb(0 0 0 / 0.1);
+}
+
+ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+li {
+  margin-bottom: 12px;
+  padding: 8px 10px;
+  background: #ecf0f1;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+button {
+  margin-left: 8px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+#btn-logout {
+  background-color: #e74c3c;
+}
+
+#btn-logout:hover {
+  background-color: #c0392b;
+}
+
+input[type="email"], input[type="password"] {
+  padding: 6px 8px;
+  margin: 0 10px 15px 0;
+  border: 1px solid #bdc3c7;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  button {
+    margin: 5px 0 0 0;
+  }
+}
+
+
+#btn-clear-cart {
+  background-color: #1d1c1c;
+}
+
+#btn-clear-cart:hover {
+  background-color: #fd0606;
+  color: black !important;
+
+}
